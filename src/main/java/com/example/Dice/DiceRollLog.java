@@ -1,10 +1,18 @@
 package com.example.Dice;
 
+import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import lombok.Getter;
+import lombok.Setter;
 
+import java.time.LocalDateTime;
+import java.util.List;
+
+@Getter
+@Setter
 @Entity
 public class DiceRollLog {
 
@@ -12,31 +20,12 @@ public class DiceRollLog {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private int diceValue;
-    private String playerName;
+    private int diceCount;
 
-    // Getters et setters
-    public Long getId() {
-        return id;
-    }
+    @ElementCollection
+    private List<Integer> results;
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+    private LocalDateTime timestamp;
 
-    public int getDiceValue() {
-        return diceValue;
-    }
-
-    public void setDiceValue(int diceValue) {
-        this.diceValue = diceValue;
-    }
-
-    public String getPlayerName() {
-        return playerName;
-    }
-
-    public void setPlayerName(String playerName) {
-        this.playerName = playerName;
-    }
 }
+
