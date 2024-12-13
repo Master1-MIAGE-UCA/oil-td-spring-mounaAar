@@ -1,6 +1,8 @@
-## 🎲 Dice Roll API 🎲 : 
+## 🎲 Dice Roll 🎲 : 
 
-**Une API simple et efficace pour lancer des dés et enregistrer les résultats. Ce projet est développé avec Spring Boot, Lombok et utilise JPA pour la gestion de la persistance des données.**
+**Une API simple pour lancer des dés et enregistrer les résultats. Ce projet est développé avec Spring Boot, Lombok et utilise JPA pour la gestion de la persistance des données.**
+
+## ✨ Contributeur ✨: AAROUR Mouna
 
 ## 🚀 Fonctionnalités 🚀 :
 
