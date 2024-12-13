@@ -11,10 +11,6 @@
 
 ## ⚙️ Configuration
 
-**Base de données :**
-
-Le projet utilise une base de données H2. 
-
 **Port :** 
 
 L'application tourne par défaut sur le port 8081. Vous pouvez changer le port en modifiant application.properties :
@@ -30,19 +26,27 @@ L'application tourne par défaut sur le port 8081. Vous pouvez changer le port e
 **GET	/dice/rollDices/{count}**	Lance {count} dés et retourne les résultats.
 
 
+## 🏗️ Installation et démarrage
 
+**Clonez le projet :**
 
+```
+git clone https://github.com/votre-utilisateur/dice-roll-api.git
+cd dice-roll-api
+```
 
+**Assurez-vous d'avoir Java 17+ et Maven installés.**
 
+***Lancez l'application :***
 
+```
+mvn spring-boot:run
+```
 
-
-
-
-
-
-
-
+***Accédez à l'application :***
+```
+http://localhost:8081
+```
 
 
 ## 🛠️ Technologies utilisées 🛠️ : 
