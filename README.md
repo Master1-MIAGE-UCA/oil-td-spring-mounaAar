@@ -1,17 +1,17 @@
-## 🎲 Dice Roll 🎲 : 
+## 🎲 DICE ROLL 🎲 : 
 
 **Une API simple pour lancer des dés et enregistrer les résultats. Ce projet est développé avec Spring Boot, Lombok et utilise JPA pour la gestion de la persistance des données.**
 
-## ✨ Contributeur ✨: AAROUR Mouna
+## ✨ CONTRIBUTEUR ✨: AAROUR Mouna
 
-## 🚀 Fonctionnalités 🚀 :
+## 🚀 FONCTIONNALITEES 🚀:
 
 🎲 **Lancer un ou plusieurs dés :** Génère des valeurs aléatoires entre 1 et 6.
 📝 **Enregistrer les résultats :** Les résultats des lancers sont sauvegardés dans une base de données.
 📊 **Visualiser les logs :** Accéder aux données des lancers de dés enregistrés.
 
 
-## ⚙️ Configuration
+## ⚙️ CONFIGURATION ⚙️: 
 
 **Port :** 
 
@@ -19,22 +19,21 @@
 L'application tourne par défaut sur le port 8081. Vous pouvez changer le port en modifiant application.properties.
 ```
 
-## ⚡️ TESTER ⚡️ : 
+## ⚡️ TESTER ⚡️: 
 
 ### Lancer un seul dé : 
 
 ```
-[/dice/rollDice	Lance un seul dé et retourne le résultat.
-](http://localhost:8080/dice/rollDice)
+http://localhost:8080/dice/rollDice
 ```
 
 ### Lancer plusieurs dé (count à définir): 
 
 ```
-[/dice/rollDices/{count}	Lance {count} dés et retourne les résultats.](http://localhost:8080/dice/rollDices/5)
+http://localhost:8080/dice/rollDices/5
 ```
 
-## 🏗️ Installation et démarrage
+## 🏗️ INSTALLATION ET DEMARRAGE 🏗️:
 
 **Clonez le projet :**
 
@@ -57,7 +56,7 @@ http://localhost:8081
 ```
 
 
-## 🛠️ Technologies utilisées 🛠️ : 
+## 🛠️ TECHNOLOGIES UTILISEES 🛠️: 
 
 - **Framework principal** : Spring Boot
 - **Base de données** : H2 
