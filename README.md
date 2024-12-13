@@ -19,18 +19,19 @@
 L'application tourne par défaut sur le port 8081. Vous pouvez changer le port en modifiant application.properties.
 ```
 
-## ⚡️ Endpoints disponibles ⚡️ : 
+## ⚡️ TESTER ⚡️ : 
 
 ### Lancer un seul dé : 
 
 ```
-/dice/rollDice	Lance un seul dé et retourne le résultat.
+[/dice/rollDice	Lance un seul dé et retourne le résultat.
+](http://localhost:8080/dice/rollDice)
 ```
 
 ### Lancer plusieurs dé (count à définir): 
 
 ```
-/dice/rollDices/{count}	Lance {count} dés et retourne les résultats.
+[/dice/rollDices/{count}	Lance {count} dés et retourne les résultats.](http://localhost:8080/dice/rollDices/5)
 ```
 
 ## 🏗️ Installation et démarrage
