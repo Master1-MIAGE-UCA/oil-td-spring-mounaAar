@@ -13,7 +13,9 @@
 
 **Port :** 
 
-L'application tourne par défaut sur le port 8081. Vous pouvez changer le port en modifiant application.properties :
+```
+L'application tourne par défaut sur le port 8081. Vous pouvez changer le port en modifiant application.properties.
+```
 
 ## ⚡️ Endpoints disponibles ⚡️ : 
 
