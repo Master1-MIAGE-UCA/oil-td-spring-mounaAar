@@ -19,12 +19,15 @@ L'application tourne par défaut sur le port 8081. Vous pouvez changer le port e
 
 ### Lancer un seul dé : 
 
-**GET	/dice/rollDice**	Lance un seul dé et retourne le résultat.
+```
+/dice/rollDice	Lance un seul dé et retourne le résultat.
+```
 
 ### Lancer plusieurs dé (count à définir): 
 
-**GET	/dice/rollDices/{count}**	Lance {count} dés et retourne les résultats.
-
+```
+/dice/rollDices/{count}	Lance {count} dés et retourne les résultats.
+```
 
 ## 🏗️ Installation et démarrage
 
